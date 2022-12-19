@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mo-pygame"
+version = "0.1.0"
+description = ""
+authors = ["dev-bong <qhddnjswo011@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mo_pygame"}]
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.12"
+pygame = "^2.1.2"
+pyinstaller = "^5.7.0"
+black = "^22.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

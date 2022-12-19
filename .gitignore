@@ -1,0 +1,16 @@
+*.pyc
+*.swp
+*.zip
+*.sh
+*.bat
+*.exe
+*test.py
+*gitmessage.txt
+
+mo_pygame/img
+__pycache__
+
+src/.unitrc
+
+# vscode setting files
+.vscode/
